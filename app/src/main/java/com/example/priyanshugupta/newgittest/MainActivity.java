@@ -18,5 +18,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         textView = (TextView)findViewById(R.id.textView);
         textView.setText("HELLO");
+        textView.setText("HELLO AGAIN");
+
     }
 }
